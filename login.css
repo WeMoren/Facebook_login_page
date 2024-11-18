@@ -1,0 +1,412 @@
+    
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    
+
+    body{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background-color:rgb(202, 202, 241);
+
+    }
+
+    /* modal starts here */
+    #modal{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background:linear-gradient(to right, rgb(69, 69, 236), lightblue);
+        
+    }
+    
+    .modalContent{
+        position: relative;
+        width: 300px;
+        height: 330px;
+        background-color:aliceblue;
+        border-radius: 9px;
+        margin: 16px;
+    }
+    
+    .closeBtn{
+        float: right;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .closeBtn:hover{
+        color:rgb(15, 54, 226);
+    }
+    
+    h3{
+        margin-bottom: 16px;
+        margin-left: 32px;
+
+        span{
+            color: blue;
+            cursor: pointer;
+        }
+    }
+
+    label{
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+
+    .mail{
+        padding-top: .7rem;
+        margin-bottom: 5px;
+    }
+
+    #submit{
+        align-items: center;
+        justify-content: center;
+        margin: 2rem 1rem;
+        padding: 10px 8px;
+    }
+
+    input{
+        padding: 8px;
+    }
+
+    .first_input{
+        margin-bottom: 16px;
+    }
+
+    .second_input{
+        margin-bottom: 12px;
+    }
+
+    .newAccount{
+       margin-top: 20px;
+       margin-left: 64px;
+       height: 30px;
+       width: 120px;
+       border: none;
+       border-radius: 12px;
+       background-color: blue;
+       color: white;
+       font-weight: bold;
+       cursor: pointer;
+    }
+
+    .newAccount:hover{
+        background-color:blue;
+    }
+
+    /* modal ends here */
+    
+
+
+.section{
+    display: flex;
+    margin: 5rem;
+}
+
+#form{
+    margin: auto;
+    background-color: white;
+    padding: 32px 32px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input{
+    padding: 9px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin-left: 0;
+    
+}
+
+.pwd{
+    margin-top: 5px;
+    margin-bottom: 25px;   
+}
+
+   .btn-1 {
+    width: 75px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-left: 4.5rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: blue;
+}
+
+.btn-2{
+    width: 150px;
+    height: 25px;
+    background-color: rgb(8, 199, 40);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-left: 3rem;
+    font-weight: bold;
+    margin-top: .5rem;
+    margin-bottom: .3rem;
+    cursor: pointer;
+}
+
+.btn-2:hover{
+    background-color:blue ;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+hr{
+    width: 100%;
+    margin-top: 6.4px;
+}
+
+.forgot{
+    margin-left: 3rem;
+    
+}
+
+.page{
+    margin-left: 2.9rem;
+}
+
+.p-2{
+    font-size: 10px;
+    margin-left: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-1{
+    margin-top: 4rem;
+}
+
+h1{
+    font-size: 70px;
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.p-1{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.footer{
+    margin-top: 0;
+    color: gray;
+    padding: 3rem;
+    font-size: 12px;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+}
+
+
+
+@media (max-width:800px) {
+
+    body{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 50%; */
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+    
+    }
+
+    .div-1{
+        width: 50%;
+        margin-bottom: 0;
+    }
+    h1{
+        font-size: 35px;
+        margin-left: 0;
+    }
+
+    .p-1{
+        font-size: 10px;
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #form{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    input{
+        width:100%
+    }
+
+    .btn-1{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .btn-2{
+        width: 100%;
+        margin-left: 0;
+        height: 2rem;
+    }
+
+    .forgot{
+        margin-left: 2rem;
+        
+    }
+
+    .page{
+        margin-left: 2rem;
+    }
+
+    .p-2{
+        margin-top: .5rem;
+        margin-left: 0;
+    }
+    
+}
+
+@media (max-width:450px) {
+    .forgot{
+        display: flex;
+        font-size: 15px;
+    }
+
+    .p-2{
+        display: flex;
+        margin-left: 0;
+        margin-top: .5rem;
+    }
+
+    h1{
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .p-1{
+        display: flex;
+        font-size: 10px;
+    }
+
+    .page{
+        display: flex;
+    }
+
+    .div-1{
+        margin-left: 0;
+    }
+
+    .footer p{
+        margin-top: 0;
+    }
+
+    body{
+        overflow:hidden ;
+    }
+    
+}
+
+@media (max-width:320px){
+
+    body{
+        overflow: hidden;
+    }
+    .p-1{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 6px;
+    }
+
+    .p-2{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+        font-size: 8px;
+    }
+
+    h1{
+        margin-left: 1rem;
+        font-size: 1px;
+    }
+
+    .footer{
+        font-size: 12px;
+    }
+
+    #form{
+        width: 50%;
+    }
+
+    .btn-1{
+        width: 3rem;
+        font-size: 12px;
+        margin-left: 1rem;
+    }
+
+    .btn-2{
+        width: 3.6rem;
+        font-size: 9px;
+        height: 20px;
+        margin-left: 1rem;
+    }
+
+    #form{
+        width: 100%;
+        margin-right:0;
+        margin-left: 0;
+    }
+
+    .forgot{
+        display: flex;
+        font-size: 9px;
+        margin-left: 1rem;
+    }
+
+    .page{
+        font-size: 9px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+
+    h1{
+        font-size: 20px;
+        margin-left: 0;
+    }
+}
+    
+    
+
+
+    
